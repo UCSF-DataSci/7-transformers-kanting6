@@ -1,0 +1,45 @@
+------------------------------------------------------------
+Task: Medical Question Answering — "What are the symptoms of gout?"
+
+Zero-shot Prompt:
+"What are the symptoms of gout?"
+
+Response:
+Gout is characterized by sudden and severe episodes of pain, swelling, redness, and tenderness in the joints, often the joint at the base of the big toe.
+
+Evaluation:
+✓ Accurate and concise. No context needed. Performs well for factual medical queries.
+Rating: 4.5/5
+
+------------------------------------------------------------
+One-shot Prompt:
+Example: Q: What causes hypertension? 
+A: Hypertension is often caused by a combination of genetic and lifestyle factors such as high salt intake, stress, and lack of exercise.
+Q: What are the symptoms of gout?
+
+Response:
+Gout is often marked by intense joint pain, especially in the big toe, accompanied by swelling, redness, and warmth.
+
+Evaluation:
+✓ Maintains consistency with the example. Slightly more detailed.
+Rating: 4.6/5
+
+------------------------------------------------------------
+Few-shot Prompt:
+Q: What are the risk factors for diabetes? 
+A: Risk factors include obesity, physical inactivity, and a family history of diabetes.
+Q: How is asthma treated? 
+A: Asthma is typically treated with inhalers, such as bronchodilators and corticosteroids.
+Q: What are the symptoms of gout?
+
+Response:
+Symptoms of gout include joint pain, inflammation, and sudden flare-ups, often in the feet. The affected joint can become swollen, red, and very sensitive to touch.
+
+Evaluation:
+✓ Most comprehensive. Better aligned to clinical tone and structure.
+Rating: 4.8/5
+
+------------------------------------------------------------
+Summary:
+
+Few-shot prompting provides the most complete and natural response for structured clinical questions. However, zero-shot is sufficient for short, factual queries. One-shot strikes a good balance between brevity and context alignment.

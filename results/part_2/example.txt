@@ -1,0 +1,8 @@
+# LLM Chat Tool Test Results
+## Usage Examples
+
+What are the symptoms of gout?,The symptoms of gout include sudden, intense joint pain—often in the big toe—along with redness, swelling, and heat in the affected area.
+How is gout diagnosed?,Gout is diagnosed through clinical evaluation, blood tests measuring uric acid, and analysis of synovial fluid for urate crystals.
+What treatments are available for gout?,Common treatments include nonsteroidal anti-inflammatory drugs (NSAIDs), colchicine, corticosteroids, and uric acid-lowering medications like allopurinol.
+What lifestyle changes can help manage gout?,Lifestyle changes such as avoiding alcohol, reducing intake of purine-rich foods, staying hydrated, and maintaining a healthy weight can help manage gout.
+What foods should be avoided with gout?,Avoid red meats, organ meats, seafood, sugary beverages, and alcohol—especially beer—to help prevent gout attacks.
